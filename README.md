@@ -77,8 +77,9 @@ Siga os próximos passos para rodar a API localmente:
 2. `npm install`
 3. `npm run dev`
 
-E então sua api estará rodando em `http://localhost:3000`
+E então seu front estará rodando em `http://localhost:3000`.
 
+**Lembrando que precisa está rodando em conjunto com a API para consumir os dados**
 ## Rodando toda a aplicação com o docker-compose
 
 Caso tenha interesse, para rodar toda a aplicação apenas com 1 comando, deve ter o [docker-compose](https://docs.docker.com/compose/install/#install-compose) instalado.
