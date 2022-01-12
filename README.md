@@ -84,5 +84,4 @@ E então sua api estará rodando em `http://localhost:3000`
 Caso tenha interesse, para rodar toda a aplicação apenas com 1 comando, deve ter o [docker-compose](https://docs.docker.com/compose/install/#install-compose) instalado.
 
 Na raiz do projeto, rode o comando `docker-compose up`.
-
 Após terminar, acesse `http://localhost:3000` e toda a aplicação deverá estar funcionando.
