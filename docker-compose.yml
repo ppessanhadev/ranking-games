@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  api:
+    container_name: games-api
+    build: 
+      context: ./backend 
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+    expose:
+      - 4000
+  frontend:
+    container_name: games-web
+    build: 
+      context: ./frontend 
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    expose:
+      - 3000
+    depends_on:
+      - api
