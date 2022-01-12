@@ -1,12 +1,13 @@
 FROM node:14-slim
 
-RUN npm install -g yarn
-
-WORKDIR .
+WORKDIR ./app
 
 COPY package*.json ./
-COPY yarn*.lock ./
 
-RUN yarn
+RUN npm install
 
-CMD ["yarn", "dev"]
+COPY . . 
+
+RUN npm run build
+
+CMD ["npm", "run", "prod"]
