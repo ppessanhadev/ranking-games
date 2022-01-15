@@ -24,8 +24,8 @@ Algumas das tecnologias utilizadas:
 **Rotas disponiveis**
 | Rota         |Método    | Handler                   | BODY                                                                                   |
 |--------------|:--------:|---------------------------|:--------------------------------------------------------------------------------------:|
-|/games        |    GET   | `GameController.getGames` |                                                                                        |
-|/games/ranking|    POST  | `GameController.rankGames`| Espera uma lista de ids dos games selecionados: <br />`{ "ids": ["/id-1", "/id-2"] }`  |
+|/games        |    GET   | GameController.getGames   |                                                                                        |
+|/games/ranking|    POST  | GameController.rankGames  | Espera uma lista de ids dos games selecionados: <br />`{ "ids": ["/id-1", "/id-2"] }`  |
 
 **Rodando localmente usando docker**
 
