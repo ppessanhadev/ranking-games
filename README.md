@@ -22,10 +22,10 @@ Algumas das tecnologias utilizadas:
 - Docker para isolar a aplicação em produção
 
 **Rotas disponiveis**
-| Rota         |Método    | Handler                   | BODY                                                                                   |
-|--------------|:--------:|---------------------------|:--------------------------------------------------------------------------------------:|
-|/games        |    GET   | GameController.getGames   |                                                                                        |
-|/games/ranking|    POST  | GameController.rankGames  | Espera uma lista de ids dos games selecionados: <br />`{ "ids": ["/id-1", "/id-2"] }`  |
+| Rota         |Método    | Handler                   | Descrição                                      |BODY                                                |
+|--------------|:--------:|---------------------------|:-----------------------------------------------|----------------------------------------------------|
+|/games        |    GET   | GameController.getGames   |                                                |                                                    |
+|/games/ranking|    POST  | GameController.rankGames  | Espera uma lista de ids dos games selecionados |{ <br /> "ids": [<br />"/id-1",<br />"/id-2"<br />] <br/>}|
 
 **Rodando localmente usando docker**
 
