@@ -33,7 +33,7 @@ Siga os próximos passos para rodar a API localmente:
 
 1. `cd backend`
 2. `docker build -t api-games .`
-3. `docker run --name jao-games-api -p 4000:4000 -d api-games`
+3. `docker run --name games-api -p 4000:4000 -d api-games`
 
 
 **Rodando localmente usando npm**
@@ -68,7 +68,7 @@ Siga os próximos passos para rodar a API localmente:
 
 1. `cd frontend`
 2. `docker build -t web-games .`
-3. `docker run --name jao-games-web -p 3000:3000 -d web-games`
+3. `docker run --name games-web -p 3000:3000 -d web-games`
 
 
 **Rodando localmente usando npm**
